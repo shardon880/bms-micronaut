@@ -1,4 +1,4 @@
-package example.micronaut.Heartbeat.heartBeatModel;
+package bms.micronaut.models;
 
 import java.time.LocalDateTime;
 

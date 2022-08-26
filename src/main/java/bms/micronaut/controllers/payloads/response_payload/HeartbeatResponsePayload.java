@@ -1,4 +1,4 @@
-package example.micronaut.Heartbeat.heartBeatController.payloads.response_payload;
+package bms.micronaut.controllers.payloads.response_payload;
 
 import java.time.LocalDateTime;
 

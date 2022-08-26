@@ -1,4 +1,4 @@
-package example.micronaut.common.helper;
+package bms.micronaut.common.helper;
 
 import java.time.LocalDateTime;
 

@@ -1,8 +1,8 @@
-package example.micronaut.Heartbeat.heartBeatRepository;
+package bms.micronaut.DAO;
 
-import example.micronaut.Heartbeat.heartBeatModel.HeartbeatModel;
+import bms.micronaut.common.helper.DateTime_helper;
+import bms.micronaut.models.HeartbeatModel;
 
-import example.micronaut.common.helper.DateTime_helper;
 public class HeartBeatRepository {
     public HeartbeatModel getHeartbeat(){
         HeartbeatModel obj = new HeartbeatModel(new DateTime_helper().getCurrentDate());
