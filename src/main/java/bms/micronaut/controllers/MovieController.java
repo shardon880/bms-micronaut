@@ -7,6 +7,7 @@ import io.micronaut.security.annotation.Secured;
 import io.micronaut.security.rules.SecurityRule;
 import jakarta.inject.Inject;
 
+import java.util.HashMap;
 import java.util.List;
 
 @Secured(SecurityRule.IS_ANONYMOUS)
@@ -16,8 +17,8 @@ public class MovieController {
     @Inject
     MovieService movieService;
 
-    @Get
-    public List<String> moviesInCity(int cityId) throws Exception {
+    @Get("/{cityId}")
+    public List<HashMap> moviesInCity(int cityId) throws Exception {
 
         System.out.println("gottcha");
 
