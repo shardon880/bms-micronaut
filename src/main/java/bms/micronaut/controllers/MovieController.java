@@ -16,7 +16,7 @@ public class MovieController {
     @Inject
     MovieService movieService;
 
-    @Get
+    @Get("/{cityId}")
     public List<String> moviesInCity(int cityId) throws Exception {
 
         System.out.println("gottcha");
