@@ -7,6 +7,7 @@ import io.micronaut.security.annotation.Secured;
 import io.micronaut.security.rules.SecurityRule;
 import jakarta.inject.Inject;
 
+import java.util.HashMap;
 import java.util.List;
 
 @Secured(SecurityRule.IS_ANONYMOUS)
