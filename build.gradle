@@ -41,8 +41,8 @@ application {
     mainClass.set("bms.micronaut.Application")
 }
 java {
-    sourceCompatibility = JavaVersion.toVersion("11")
-    targetCompatibility = JavaVersion.toVersion("11")
+    sourceCompatibility = JavaVersion.toVersion("18")
+    targetCompatibility = JavaVersion.toVersion("18")
 }
 
 graalvmNative.toolchainDetection = false
@@ -54,6 +54,3 @@ micronaut {
         annotations("example.micronaut.*")
     }
 }
-
-
-
